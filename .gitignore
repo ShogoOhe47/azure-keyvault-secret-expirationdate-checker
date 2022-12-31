@@ -94,4 +94,8 @@ appsettings.json
 local.settings.json
 
 # Visual Studio Code
-.vscode
+.vscode/
+
+# azurite
+__azurite_db_*__.json
+__blobstorage__/
