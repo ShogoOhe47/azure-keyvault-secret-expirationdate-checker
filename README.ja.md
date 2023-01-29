@@ -17,7 +17,7 @@
 # 使い方
 このサンプルコードは Azure Functions ランタイムバージョン 4.x (4.14.0.19631)、Node.js v16LTS(v16.16.0)、Windows 従量課金プランでテストしています。
 
-いくつの火の設定を追加して、```func azure functionapp publish <FunctionAppName>``` コマンドで発行することで実行することが出来ます。
+いくつかの設定を追加して、```func azure functionapp publish <FunctionAppName>``` コマンドで発行することで実行することが出来ます。
 
 ## Sendgrid の準備
 Sendgrid は制限付きではありますが、無料プランがあります。以下のドキュメントに従って、無料または有料プランを準備します。
@@ -72,4 +72,4 @@ Azure Functions 上のコードから Azure Key Vault にアクセスするた�
 また、それぞれの内容について、有効期限切れが近い (EXPIRATION_THRESHOLD_INDAYS で指定した日数以内に切れる) 項目が "Warning - Renewal date nears." として、既に有効期限が切れている内容が "Already Expired"、有効期限が十分残っている内容が "No work" として表示されます。
 
 シークレットが App Service 証明書である場合、"/subscriptions/..." で始まる App Service 証明書のリソース ID が表示されます。 
-シークレットである場合、証明書で指定された発行先 (CN:CommonName) も記載されます。
+証明書である場合、証明書で指定された発行先 (CN:CommonName) も記載されます。
